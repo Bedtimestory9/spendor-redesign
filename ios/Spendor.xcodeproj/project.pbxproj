@@ -11,6 +11,14 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		80B251A79C934A27BBA325BC /* sf-ui-display-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC8150C79804475A12B743A /* sf-ui-display-black.otf */; };
+		D1BF4AB7B3B44C1B8710C54F /* sf-ui-display-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B94EA182C16E49E9AAF1B9A4 /* sf-ui-display-bold.otf */; };
+		BFAA81649F7D41019BF9C8E6 /* sf-ui-display-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB29DEF0026248E2A29CDB1B /* sf-ui-display-heavy.otf */; };
+		3E7C9652D5AA4374A3ED8639 /* sf-ui-display-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2701D45AACAF4D29ADF5CE26 /* sf-ui-display-light.otf */; };
+		290007F7052F4837B0C0EC42 /* sf-ui-display-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E80E85C92E247349FB51D12 /* sf-ui-display-medium.otf */; };
+		42789F08459F471981DE57F9 /* sf-ui-display-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D420EAEAA81C4ED791959882 /* sf-ui-display-semibold.otf */; };
+		51AA8A5F6C894DE1843F326D /* sf-ui-display-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E119657363A4CE7A8F58D15 /* sf-ui-display-thin.otf */; };
+		D113210E8A6C4EEA8B6A7477 /* sf-ui-display-ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3987B0BD26E46B4BC40F473 /* sf-ui-display-ultralight.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Spendor/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Spendor/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		7FC8150C79804475A12B743A /* sf-ui-display-black.otf */ = {isa = PBXFileReference; name = "sf-ui-display-black.otf"; path = "../assets/fonts/sf-ui-display-black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B94EA182C16E49E9AAF1B9A4 /* sf-ui-display-bold.otf */ = {isa = PBXFileReference; name = "sf-ui-display-bold.otf"; path = "../assets/fonts/sf-ui-display-bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB29DEF0026248E2A29CDB1B /* sf-ui-display-heavy.otf */ = {isa = PBXFileReference; name = "sf-ui-display-heavy.otf"; path = "../assets/fonts/sf-ui-display-heavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2701D45AACAF4D29ADF5CE26 /* sf-ui-display-light.otf */ = {isa = PBXFileReference; name = "sf-ui-display-light.otf"; path = "../assets/fonts/sf-ui-display-light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E80E85C92E247349FB51D12 /* sf-ui-display-medium.otf */ = {isa = PBXFileReference; name = "sf-ui-display-medium.otf"; path = "../assets/fonts/sf-ui-display-medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D420EAEAA81C4ED791959882 /* sf-ui-display-semibold.otf */ = {isa = PBXFileReference; name = "sf-ui-display-semibold.otf"; path = "../assets/fonts/sf-ui-display-semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6E119657363A4CE7A8F58D15 /* sf-ui-display-thin.otf */ = {isa = PBXFileReference; name = "sf-ui-display-thin.otf"; path = "../assets/fonts/sf-ui-display-thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3987B0BD26E46B4BC40F473 /* sf-ui-display-ultralight.otf */ = {isa = PBXFileReference; name = "sf-ui-display-ultralight.otf"; path = "../assets/fonts/sf-ui-display-ultralight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				FCF90114BA08472A8A3B38B7 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +113,22 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		FCF90114BA08472A8A3B38B7 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				7FC8150C79804475A12B743A /* sf-ui-display-black.otf */,
+				B94EA182C16E49E9AAF1B9A4 /* sf-ui-display-bold.otf */,
+				DB29DEF0026248E2A29CDB1B /* sf-ui-display-heavy.otf */,
+				2701D45AACAF4D29ADF5CE26 /* sf-ui-display-light.otf */,
+				8E80E85C92E247349FB51D12 /* sf-ui-display-medium.otf */,
+				D420EAEAA81C4ED791959882 /* sf-ui-display-semibold.otf */,
+				6E119657363A4CE7A8F58D15 /* sf-ui-display-thin.otf */,
+				A3987B0BD26E46B4BC40F473 /* sf-ui-display-ultralight.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -159,6 +192,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				80B251A79C934A27BBA325BC /* sf-ui-display-black.otf in Resources */,
+				D1BF4AB7B3B44C1B8710C54F /* sf-ui-display-bold.otf in Resources */,
+				BFAA81649F7D41019BF9C8E6 /* sf-ui-display-heavy.otf in Resources */,
+				3E7C9652D5AA4374A3ED8639 /* sf-ui-display-light.otf in Resources */,
+				290007F7052F4837B0C0EC42 /* sf-ui-display-medium.otf in Resources */,
+				42789F08459F471981DE57F9 /* sf-ui-display-semibold.otf in Resources */,
+				51AA8A5F6C894DE1843F326D /* sf-ui-display-thin.otf in Resources */,
+				D113210E8A6C4EEA8B6A7477 /* sf-ui-display-ultralight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
