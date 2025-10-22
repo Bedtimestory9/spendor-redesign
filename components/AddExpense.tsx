@@ -35,21 +35,44 @@ export default function AddExpense({
       visible={visibility}
     >
       <View style={styles.modalContainer}>
-        <View style={[styles.contentContainer, styles.devBox]}>
+        <View style={[styles.contentContainer]}>
           <View style={styles.content}>
             <View style={styles.inputView}>
               <DefaultText style={styles.dollarSign}>$</DefaultText>
-              <TextInput style={styles.amount} value="0" />
+              <TextInput
+                keyboardType="numeric"
+                style={styles.amount}
+                placeholder="0"
+                placeholderTextColor={color.primaryBlue}
+              />
             </View>
             <View style={styles.dateView}>
               <DefaultText>Oct. 13, 2025</DefaultText>
             </View>
-            <View style={styles.dropdownView}>
-              <Dropdown entry={categories} />
+            <View>
+              <Dropdown
+                placeholder="Choose a category..."
+                entries={categories}
+                style={[styles.dropdown]}
+              />
+              <View style={styles.underline} />
             </View>
-            <TouchableOpacity onPress={() => setVisibility(false)}>
-              <DefaultText>X</DefaultText>
-            </TouchableOpacity>
+            <View style={[styles.itemView]}>
+              <TextInput
+                style={[styles.itemText]}
+                placeholder="Enter an item..."
+                placeholderTextColor={color.visibleGrey}
+              />
+              <View style={[styles.underline]} />
+            </View>
+            <View style={styles.deciderView}>
+              <TouchableOpacity onPress={() => setVisibility(false)}>
+                <DefaultText>X</DefaultText>
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => setVisibility(false)}>
+                <DefaultText>X</DefaultText>
+              </TouchableOpacity>
+            </View>
           </View>
         </View>
       </View>
@@ -84,6 +107,7 @@ const styles = StyleSheet.create({
   dollarSign: {
     fontSize: 60,
     color: color.primaryBlue,
+    alignSelf: 'flex-end',
   },
   amount: {
     fontSize: 60,
@@ -94,8 +118,35 @@ const styles = StyleSheet.create({
   dateView: {
     alignItems: 'center',
   },
-  dropdownView: {
+  dropdown: {
+    marginTop: '15%',
+    width: '60%',
+    alignSelf: 'center',
+    paddingBottom: 0,
+  },
+  itemView: {
+    marginTop: '2%',
     alignItems: 'center',
+  },
+  itemText: {
+    fontSize: 20,
+    width: '62%',
+    paddingBottom: 0,
+    color: color.primaryBlack,
+    fontFamily: 'sf-ui-display-medium',
+  },
+  deciderView: {
+    marginTop: '10%',
+    width: '60%',
+    alignSelf: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  underline: {
+    alignSelf: 'center',
+    borderBottomColor: color.visibleGrey,
+    borderBottomWidth: 1,
+    width: '60%',
   },
   devBox: {
     borderStyle: 'dotted',
