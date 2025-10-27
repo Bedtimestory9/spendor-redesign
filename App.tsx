@@ -14,9 +14,9 @@ function App() {
   return (
     <SafeAreaProvider style={styles.appScreen}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <Total setVisibility={setModalVisible} />
+      <Total />
       <Categories />
-      <Expenses />
+      <Expenses setVisibility={setModalVisible} />
       <AddExpense visibility={modalVisible} setVisibility={setModalVisible} />
     </SafeAreaProvider>
   );

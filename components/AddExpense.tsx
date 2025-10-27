@@ -1,4 +1,5 @@
 import {
+  Dimensions,
   Modal,
   StyleSheet,
   TextInput,
@@ -11,6 +12,16 @@ import Dropdown from '../assets/ui/Dropdown';
 
 import type { DataType } from '../assets/ui/Dropdown';
 
+const screenHeight = Dimensions.get('window').height;
+
+const categories: DataType[] = [
+  { id: 1, name: 'Food' },
+  { id: 2, name: 'Utilities' },
+  { id: 3, name: 'Entertainment' },
+  { id: 4, name: 'Shopping' },
+  { id: 5, name: 'Transport' },
+];
+
 type AddExpenseProps = {
   visibility: boolean;
   setVisibility: React.Dispatch<React.SetStateAction<boolean>>;
@@ -19,14 +30,6 @@ export default function AddExpense({
   visibility,
   setVisibility,
 }: AddExpenseProps) {
-  const categories: DataType[] = [
-    { id: 1, name: 'Food' },
-    { id: 2, name: 'Utilities' },
-    { id: 3, name: 'Entertainment' },
-    { id: 4, name: 'Shopping' },
-    { id: 5, name: 'Transport' },
-  ];
-
   return (
     <Modal
       presentationStyle="overFullScreen"

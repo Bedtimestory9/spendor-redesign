@@ -128,7 +128,7 @@ export async function postAuth(
   }
 }
 
-export async function postGenerate(
+export async function generateUser(
   authDTO: AuthDTO,
 ): Promise<Partial<AuthResponse>> {
   try {

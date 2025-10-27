@@ -33,10 +33,12 @@ const styles = StyleSheet.create({
   },
   barTextOverlay: {
     color: 'white',
-    fontSize: 30,
+    fontSize: 25,
+    marginRight: -6,
+    overflow: 'hidden',
   },
   barText: {
-    fontSize: 30,
+    fontSize: 25,
   },
   progress: {
     height: 40,
