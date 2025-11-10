@@ -9,9 +9,9 @@ export default function Categories() {
       <DefaultText style={styles.titleText}>September</DefaultText>
       <View style={styles.underline} />
       <View style={styles.progressBarView}>
-        <ProgressBar percentage={'25%'} barText="Food" barNumber="25%" />
-        <ProgressBar percentage={'15%'} barText="Utilities" barNumber="15%" />
-        <ProgressBar percentage={'25%'} barText="Transport" barNumber="35%" />
+        <ProgressBar percentage={'27%'} barText="Food" barNumber="25%" />
+        <ProgressBar percentage={'16%'} barText="Utilities" barNumber="15%" />
+        <ProgressBar percentage={'28%'} barText="Transport" barNumber="35%" />
         <ProgressBar
           percentage={'45%'}
           barText="Entertainment"

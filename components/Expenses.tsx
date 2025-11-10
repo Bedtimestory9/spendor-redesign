@@ -74,14 +74,22 @@ const styles = StyleSheet.create({
     fontSize: 30,
     marginBottom: '1%',
   },
-  entryContainer: { position: 'relative', height: 40, width: '100%' },
+  entryContainer: {
+    position: 'relative',
+    height: 40,
+    width: '100%',
+    paddingHorizontal: 4,
+  },
   totalEntry: {
     position: 'relative',
     height: 40,
     width: '100%',
     marginTop: '2%',
   },
-  dashedLineContainer: { justifyContent: 'center', height: '100%' },
+  dashedLineContainer: {
+    justifyContent: 'center',
+    height: '100%',
+  },
   dashedLine: {
     borderBottomWidth: 1,
     borderStyle: 'dashed',
@@ -116,6 +124,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'flex-end',
+    paddingHorizontal: 4,
   },
   entryTime: {
     fontSize: 15,

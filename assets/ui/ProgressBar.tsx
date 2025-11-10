@@ -31,19 +31,21 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 40,
   },
-  barTextOverlay: {
-    color: 'white',
-    fontSize: 25,
-    marginRight: -6,
-    overflow: 'hidden',
-  },
   barText: {
     fontSize: 25,
+    paddingHorizontal: 6,
   },
   progress: {
     height: 40,
     backgroundColor: color.primaryBlue,
     position: 'absolute',
+  },
+  barTextOverlay: {
+    color: 'white',
+    fontSize: 25,
+    marginRight: -8,
+    overflow: 'hidden',
+    paddingHorizontal: 4,
   },
   contentBehindProgress: {
     width: '100%',
